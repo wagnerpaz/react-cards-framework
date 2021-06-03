@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'react-cards-framework'
-import 'react-cards-framework/dist/index.css'
+import { Card, Suit } from 'react-cards-framework';
+import 'react-cards-framework/dist/index.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  return <Card number={13} suit={Suit.DIAMOND} />;
+};
 
-export default App
+export default App;
